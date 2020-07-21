@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding:0px;
+    
+}
+.container{
+    display: flex;
+    
+}
+.nav{
+    flex:1;
+    
+    
+    flex-wrap: nowrap;
+}
+img{
+    height: 50px;
+    margin: 5px;
+}
+.fa{
+    display: inline;
+    margin: 15px;
+    transform: translate(12px, -23px);
+}
+.nav2{
+
+    display: flex;
+    justify-content: flex-end;
+}
+.items{
+    height: 30px;
+    width: 30px;
+    margin: 8px;
+    border-radius: 50%;
+    background-color: lightsteelblue;
+}
+.main{
+    display:flex;
+    justify-content: space-around;
+    
+
+}
+.one{
+    flex:2;
+}
+.two{
+    flex:8;
+    background-color: lavender;
+}
+
+.two{
+    display: flex;
+    justify-content: space-around;
+    
+    flex-wrap: wrap;
+}
+.mainitem{
+    display: flex;
+    flex-direction: column;
+    
+    height:175px;
+    width:250px;
+    
+    margin: 8px;
+    
+}
+.three{
+    background-color: lightslategray;
+    flex:7;
+    margin: 2px;
+    border-radius: 2px;
+}
+.four{
+    flex:3;
+}
+.four{
+    display: flex;
+    
+}
+.five{
+    flex:2;
+    
+}
+.six{
+    flex:8;
+    
+}
+.circle{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: darkgrey;
+    margin:8px;
+}
+.square1{
+    height: 18px;
+    width: 90%;
+    background-color:darkgray;
+    margin: 7px;
+    border-radius: 2px;
+
+}
+.square2{
+    height: 18px;
+    width: 60%;
+    background-color:darkgray;
+    margin: 7px;
+    border-radius: 2px;
+}

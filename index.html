@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav nav1">
+            <i class="fa fa-bars" style="font-size:24px"></i>
+            <img src="data:image/png;base64,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" alt="">
+        </div>
+        <div class="nav nav2">
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+        </div>
+        
+    </div>
+    <div class="main">
+    <div class="content one"></div>
+        <div class="content two">
+            <div class="mainitem">
+                <div class="newcontent three"></div>
+                <div class="newcontent four">
+                    <div class="profile five">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="profile six">
+                        <div class="square1"></div>
+                        <div class="square2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="mainitem">
+                <div class="newcontent three"></div>
+                <div class="newcontent four">
+                    <div class="profile five">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="profile six">
+                        <div class="square1"></div>
+                        <div class="square2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="mainitem">
+                <div class="newcontent three"></div>
+                <div class="newcontent four">
+                    <div class="profile five">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="profile six">
+                        <div class="square1"></div>
+                        <div class="square2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="mainitem">
+                <div class="newcontent three"></div>
+                <div class="newcontent four">
+                    <div class="profile five">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="profile six">
+                        <div class="square1"></div>
+                        <div class="square2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="mainitem">
+                <div class="newcontent three">
+                    <div class="square1"></div>
+                        <div class="square2"></div>
+                </div>
+                <div class="newcontent four">
+                    <div class="profile five">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="profile six">
+                        <div class="square1"></div>
+                        <div class="square2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="mainitem">
+                <div class="newcontent three"></div>
+                <div class="newcontent four">
+                    <div class="profile five">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="profile six">
+                        <div class="square1"></div>
+                        <div class="square2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="mainitem">
+                <div class="newcontent three"></div>
+                <div class="newcontent four">
+                    <div class="profile five">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="profile six">
+                        <div class="square1"></div>
+                        <div class="square2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="mainitem">
+                <div class="newcontent three"></div>
+                <div class="newcontent four">
+                    <div class="profile five">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="profile six">
+                        <div class="square1"></div>
+                        <div class="square2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="mainitem">
+                <div class="newcontent three"></div>
+                <div class="newcontent four">
+                    <div class="profile five">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="profile six">
+                        <div class="square1"></div>
+                        <div class="square2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="mainitem">
+                <div class="newcontent three"></div>
+                <div class="newcontent four">
+                    <div class="profile five">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="profile six">
+                        <div class="square1"></div>
+                        <div class="square2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="mainitem">
+                <div class="newcontent three"></div>
+                <div class="newcontent four">
+                    <div class="profile five">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="profile six">
+                        <div class="square1"></div>
+                        <div class="square2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="mainitem">
+                <div class="newcontent three"></div>
+                <div class="newcontent four">
+                    <div class="profile five">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="profile six">
+                        <div class="square1"></div>
+                        <div class="square2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="mainitem">
+                <div class="newcontent three"></div>
+                <div class="newcontent four">
+                    <div class="profile five">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="profile six">
+                        <div class="square1"></div>
+                        <div class="square2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="mainitem">
+                <div class="newcontent three"></div>
+                <div class="newcontent four">
+                    <div class="profile five">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="profile six">
+                        <div class="square1"></div>
+                        <div class="square2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="mainitem">
+                <div class="newcontent three"></div>
+                <div class="newcontent four">
+                    <div class="profile five">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="profile six">
+                        <div class="square1"></div>
+                        <div class="square2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="mainitem">
+                <div class="newcontent three"></div>
+                <div class="newcontent four">
+                    <div class="profile five">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="profile six">
+                        <div class="square1"></div>
+                        <div class="square2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
